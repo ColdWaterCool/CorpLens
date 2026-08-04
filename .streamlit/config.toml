@@ -1,0 +1,13 @@
+[client]
+# 隐藏右上角 Deploy / Rerun 等英文开发者菜单，演示界面更干净
+toolbarMode = "minimal"
+showSidebarNavigation = false
+showErrorDetails = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#B91C1C"
+font = "sans serif"

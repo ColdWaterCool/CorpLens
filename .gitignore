@@ -1,0 +1,30 @@
+# CorpLens / 企析智体 — Git
+
+## 忽略本地与敏感
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# 本机备份与测试产物（永不公开）
+private/
+test/
+!test/.gitkeep
+outputs/
+out_smoke*.md
+*.log
+*.zip
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 误生成的大文件
+*.png
+!docs/**/*.png
