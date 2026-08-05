@@ -1,9 +1,18 @@
 # 企析智体 CorpLens
 
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **把企业转型需求，做成可辩论、可试验、可排序的分析书。**
 
+```text
+调查表单 ──▶ 四席并行分析 ──▶ 《转型需求分析书》
+              (市场/经济/实现/流程)     + 流程图 / 效益示意
+```
+
 CorpLens（CorpShift × FirmLens）是一套本地可跑的**企业转型需求分析智能体**：  
-填一份结构化调查 → 四席并行分析 → 输出可下载的《转型需求分析书》（含流程图与效益示意）。
+填一份结构化调查 → 四席并行分析 → 输出可下载的《转型需求分析书》。
 
 ---
 
@@ -144,8 +153,8 @@ python scripts/check_repo_secrets.py
 - [ ] Prompt 评测集与回归脚本  
 - [ ] 可选本地模型 / 更强组装策略  
 
-欢迎 Issue 与 PR。
+欢迎 Issue 与 PR（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。
 
 ## License
 
-未单独声明许可文件前，仅供学习与演示参考；商用请先联系作者。
+[MIT](LICENSE)
